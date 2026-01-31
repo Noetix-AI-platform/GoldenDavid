@@ -9,9 +9,7 @@
 
 
 
-[https://github.com/Noetix-AI-platform/GoldenDavid/raw/main/David.mp4](https://github.com/Noetix-AI-platform/GoldenDavid/raw/main/David.mp4)
-
-
+![Demo](David.gif)
 
 ## 1. 环境要求
 
