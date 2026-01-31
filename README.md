@@ -5,6 +5,14 @@
 - WebM 视频
 - 可直接打开的内嵌 HTML（`data:video/webm;base64,...`）
 
+## Demo
+
+
+
+https://github.com/<user>/<repo>/raw/main/demo.mp4
+
+
+
 ## 1. 环境要求
 
 - Python 3.10+（建议）
