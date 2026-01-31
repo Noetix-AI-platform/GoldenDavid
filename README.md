@@ -88,26 +88,5 @@ python generate.py --img path/to/your_image.png --out out_effect
 - `out_effect/precomputed_data.json`
 - `out_effect/david_effect_generated.js`
 
-## 6. 常见问题
 
-### 6.1 找不到 `david_effect.js`
-
-`generate.py` 会把 `--template-js` 指定的模板 JS 作为基础，生成 `david_effect_generated.js`。
-
-如果仓库里没有 `david_effect.js`：
-- 确保你本地有一份模板（比如从历史版本/备份恢复）
-- 或者把模板文件路径通过 `--template-js` 传进去
-
-示例：
-```bash
-python generate.py --img a.png --out out_effect --template-js path/to/template_david_effect.js --render
-```
-
-### 6.2 运行很慢
-
-渲染阶段是无头浏览器逐帧截图，正常会比实时播放慢。
-你可以：
-- 降低 `--max-frames`
-- 降低 `--dpr`
-- 提高 `--threshold` 或提高 `--sample-rate` 降低点数
 
